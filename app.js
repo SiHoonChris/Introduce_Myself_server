@@ -10,8 +10,6 @@ var numOfViewers = require('./routes/numOfViewers');
 var countViewers = require('./routes/countViewers');
 
 var app = express();
-const connection = require('./routes/mysql');
-connection.connect();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
